@@ -1,0 +1,771 @@
+# Hungarian translations for gramps-addons / DescendantBooks package.
+# Copyright (C) 2020 THE addons-source-maintenance-gramps'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Gramps package.
+# Jancsi70 <gyj@centrum.sk>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gramps51\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-06 16:15-0500\n"
+"PO-Revision-Date: 2020-06-17 21:13+0200\n"
+"Last-Translator: Jancsi70 <gyj@centrum.sk>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: DescendantBooks/CollectAscendants.py:178
+#, python-format
+msgid "Deep pruning ascendants from %s people..."
+msgstr "%s ember elődeinek mély metszése..."
+
+#: DescendantBooks/CollectAscendants.py:182
+#, python-format
+msgid "Pruning ascendants from %s people..."
+msgstr "%s ember elődeinek metszése..."
+
+#: DescendantBooks/CollectAscendants.py:320
+#: DescendantBooks/CollectAscendants.py:413
+#, python-format
+msgid "Getting ascendants from %s people..."
+msgstr "%s ember elődeinek lekérése.."
+
+#: DescendantBooks/CollectAscendants.py:331
+#, python-format
+msgid "Verifying descendants from %s people..."
+msgstr "%s ember leszármazottainak ellenőrzése..."
+
+#: DescendantBooks/CollectAscendants.py:348
+#, python-format
+msgid "Getting missing descendants from %s people..."
+msgstr "%s ember hiányzó elődeinek lekérése.."
+
+#: DescendantBooks/CollectAscendants.py:367
+#, python-format
+msgid "Verifying descendants from %s people after pruning..."
+msgstr "%s ember elődeinek metszés utáni ellenőrzése..."
+
+#: DescendantBooks/CollectAscendants.py:383
+#, python-format
+msgid "Getting missing descendants from %s people ..."
+msgstr "%s ember hiányzó leszármazottainak lekérése.."
+
+#: DescendantBooks/DescendantBookReport.py:223
+#: DescendantBooks/DescendantBookReport.py:228
+#, python-format
+msgid "sp. %(spouse)s"
+msgstr "ht. %(spouse)s"
+
+#: DescendantBooks/DescendantBookReport.py:238
+#, python-format
+msgid "sp. see  %(reference)s : %(spouse)s"
+msgstr "ht. lásd %(reference)s : %(spouse)s"
+
+#: DescendantBooks/DescendantBookReport.py:249
+#, python-format
+msgid "see report: %(report)s, ref: %(reference)s : %(person)s & %(spouse)s"
+msgstr ""
+"lásd, összesítő: %(report)s, hivatkozás: %(reference)s : %(person)s & "
+"%(spouse)s"
+
+#: DescendantBooks/DescendantBookReport.py:324
+#, python-format
+msgid "%s sp."
+msgstr "%s ht."
+
+#: DescendantBooks/DescendantBookReport.py:374
+msgid "Descendants Report"
+msgstr "Leszármazási Összesítő"
+
+#: DescendantBooks/DescendantBookReport.py:379
+#: DescendantBooks/DetailedDescendantBookReport.py:172
+#, python-format
+msgid "Person %s is not in the Database"
+msgstr "%s személy nem található az adatbázisban"
+
+#: DescendantBooks/DescendantBookReport.py:423
+#: DescendantBooks/DetailedDescendantBookReport.py:418
+#, python-format
+msgid "Writing %s reports..."
+msgstr "%s összesítő írása..."
+
+#: DescendantBooks/DescendantBookReport.py:442
+#, python-format
+msgid "%s. Descendants of %s"
+msgstr "%s. leszármazottai %s-nak"
+
+#: DescendantBooks/DescendantBookReport.py:444
+#, python-format
+msgid "Descendants of %s"
+msgstr "%s leszármazottai"
+
+#: DescendantBooks/DescendantBookReport.py:464
+msgid "Descendant Report"
+msgstr "Leszármazási összesítő"
+
+#: DescendantBooks/DescendantBookReport.py:470
+#: DescendantBooks/DetailedDescendantBookReport.py:603
+msgid "Table Of Contents"
+msgstr "Tartalomjegyzék"
+
+#: DescendantBooks/DescendantBookReport.py:481
+#: DescendantBooks/DetailedDescendantBookReport.py:614
+#, python-format
+msgid "%d. %s"
+msgstr "%d. %s"
+
+#: DescendantBooks/DescendantBookReport.py:506
+#: DescendantBooks/DetailedDescendantBookReport.py:1338
+msgid "Report Options"
+msgstr "Összesítő lehetőségek"
+
+#: DescendantBooks/DescendantBookReport.py:508
+#: DescendantBooks/DetailedDescendantBookReport.py:1340
+msgid "Filter"
+msgstr "Szűrő"
+
+#: DescendantBooks/DescendantBookReport.py:510
+#: DescendantBooks/DetailedDescendantBookReport.py:1342
+msgid "Select filter to restrict people that appear in the report"
+msgstr "Válasszon szűrőt emberek megjelenítésének kizárásához az összesítőben"
+
+#: DescendantBooks/DescendantBookReport.py:513
+#: DescendantBooks/DetailedDescendantBookReport.py:1345
+msgid "Center Person"
+msgstr "Központi személy"
+
+#: DescendantBooks/DescendantBookReport.py:514
+#: DescendantBooks/DetailedDescendantBookReport.py:1346
+msgid "The center person for the report"
+msgstr "Az összesítő központi személye"
+
+#: DescendantBooks/DescendantBookReport.py:524
+#: DescendantBooks/DetailedDescendantBookReport.py:1355
+msgid "Name format"
+msgstr "Név formátum"
+
+#: DescendantBooks/DescendantBookReport.py:525
+#: DescendantBooks/DetailedDescendantBookReport.py:1356
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: DescendantBooks/DescendantBookReport.py:528
+#: DescendantBooks/DetailedDescendantBookReport.py:1359
+msgid "Select the format to display names"
+msgstr "Válasszon névmegjelenítési formátumot"
+
+#: DescendantBooks/DescendantBookReport.py:531
+#: DescendantBooks/DetailedDescendantBookReport.py:1362
+msgid "Numbering system"
+msgstr "Számozási rendszer"
+
+#: DescendantBooks/DescendantBookReport.py:533
+msgid "Simple numbering"
+msgstr "Egyszerű számozás"
+
+#: DescendantBooks/DescendantBookReport.py:534
+msgid "de Villiers/Pama numbering"
+msgstr "de Villiers/Pama számozás (a  b1  c1  c2)"
+
+#: DescendantBooks/DescendantBookReport.py:535
+msgid "Meurgey de Tupigny numbering"
+msgstr "Meurgey de Tupigny számozás (I  II  III-2)"
+
+#: DescendantBooks/DescendantBookReport.py:536
+#: DescendantBooks/DetailedDescendantBookReport.py:1368
+msgid "The numbering system to be used"
+msgstr "A használandó számozási rendszer"
+
+#: DescendantBooks/DescendantBookReport.py:539
+#: DescendantBooks/DetailedDescendantBookReport.py:1371
+msgid "Generations"
+msgstr "Generációk"
+
+#: DescendantBooks/DescendantBookReport.py:540
+#: DescendantBooks/DetailedDescendantBookReport.py:1373
+msgid "The number of generations to include in the report"
+msgstr "Az összesítőben szereplő generációk száma"
+
+#: DescendantBooks/DescendantBookReport.py:543
+msgid "Show marriage info"
+msgstr "Házassági információ mutatása"
+
+#: DescendantBooks/DescendantBookReport.py:544
+msgid "Whether to show marriage information in the report."
+msgstr "Legyen-e a házassági információ mutatva az összesítőben."
+
+#: DescendantBooks/DescendantBookReport.py:547
+msgid "Show divorce info"
+msgstr "Válási információ mutatása"
+
+#: DescendantBooks/DescendantBookReport.py:548
+msgid "Whether to show divorce information in the report."
+msgstr "Legyen-e a válási információ mutatva az összesítőben."
+
+#: DescendantBooks/DescendantBookReport.py:551
+msgid "Show duplicate trees"
+msgstr "Kettőzött fák mutatása"
+
+#: DescendantBooks/DescendantBookReport.py:552
+msgid "Whether to show duplicate family trees in the report."
+msgstr "Legyenek-e a kettőzött családfágak mutatva az összesítőben."
+
+#: DescendantBooks/DescendantBookReport.py:575
+#: DescendantBooks/DetailedDescendantBookReport.py:1537
+msgid "The style used for the title of the page."
+msgstr "Az oldalcímhez használt stílus."
+
+#: DescendantBooks/DescendantBookReport.py:585
+msgid "The style used for the table of contents header."
+msgstr "A tartalomjegyzék fejlécéhez használt stílus."
+
+#: DescendantBooks/DescendantBookReport.py:595
+msgid "The style used for the table of contents detail."
+msgstr "A tartalomjegyzék tartalmához használt stílus."
+
+#: DescendantBooks/DescendantBookReport.py:607
+#, python-format
+msgid "The style used for the level %d display."
+msgstr "%d. szint megjelenésének stílusa."
+
+#: DescendantBooks/DescendantBookReport.py:616
+#, python-format
+msgid "The style used for the spouse level %d display."
+msgstr "%d házastársi szint megjelenésének stílusa."
+
+#: DescendantBooks/DescendantBooks.gpr.py:21
+msgid "Descendant Book"
+msgstr "Leszármazási Könyv"
+
+#: DescendantBooks/DescendantBooks.gpr.py:22
+msgid "Produces one or more descendant reports based on a supplied query."
+msgstr ""
+"Egy vagy több leszármazási összesítőt készít a megadott kérések alapján."
+
+#: DescendantBooks/DescendantBooks.gpr.py:38
+msgid "Detailed Descendant Book"
+msgstr "Részletes Leszármazási Könyv"
+
+#: DescendantBooks/DescendantBooks.gpr.py:39
+msgid ""
+"Produces one or more detailed descendant reports based on a supplied query."
+msgstr ""
+"Egy vagy több részletes leszármazási összesítőt készít a megadott kérések "
+"alapján."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:134
+msgid "Detailed Descendants Report"
+msgstr "Részletes Leszármazási Összesítő"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:356
+#, python-format
+msgid "Generating %s report references..."
+msgstr "%s összesítő hivatkozásainak létrehozása..."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:450
+#, python-format
+msgid "%(report_count)s. Descendant Report for %(person_name)s"
+msgstr "%(report_count)s. %(person_name)s leszármazási összesítője"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:454
+#, python-format
+msgid "Descendant Report for %(person_name)s"
+msgstr "%(person_name)s leszármazási összesítője"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:467
+#, python-format
+msgid "Generation %d"
+msgstr "%d. generáció"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:516
+msgid "Index of Places"
+msgstr "Helynévmutató"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:539
+msgid "Index of Dates"
+msgstr "Időrendi mutató"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:562
+msgid "Index of Names"
+msgstr "Névjegyzék"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:568
+msgid "Report, Generation, Person, Name"
+msgstr "Összesítő, Generáció:, Személy, Név"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:597
+msgid "Detailed Descendant Report"
+msgstr "Részletes Leszármazási Összesítő"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:694
+#, python-format
+msgid "See Report : %s, Generation : %s, Person : %s"
+msgstr "Lásd, Összesítő: %s, Generáció: %s, Személy: %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:709
+#, python-format
+msgid "%(name)s is the same person as [%(id_str)s]."
+msgstr "%(name)s ugyanaz a személy, mint [%(id_str)s]."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:763
+#: DescendantBooks/DetailedDescendantBookReport.py:776
+#, python-format
+msgid "Report appearances for %s"
+msgstr "%s előfordulási összesítője"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:768
+#, python-format
+msgid "Spouse of: Report: %s, Generation: %s, Person: %s"
+msgstr "Házastársa: Összesítő: %s, Generáció: %s, Személy: %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:781
+#, python-format
+msgid "Report: %s, Generation: %s, Person: %s"
+msgstr "Összesítő: %s, Generáció: %s, Személy: %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:806
+#, python-format
+msgid "%(event_name)s of %(name)s "
+msgstr "%(event_name)s %(name)s "
+
+#: DescendantBooks/DetailedDescendantBookReport.py:810
+#, python-format
+msgid "%(event_name)s of %(name)s and %(mate)s "
+msgstr "%(event_name)s %(name)s és %(mate)s "
+
+#: DescendantBooks/DetailedDescendantBookReport.py:814
+#: DescendantBooks/DetailedDescendantBookReport.py:858
+#, python-format
+msgid "%(date)s, %(place)s"
+msgstr "%(date)s, %(place)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:817
+#: DescendantBooks/DetailedDescendantBookReport.py:861
+#, python-format
+msgid "%(date)s"
+msgstr "%(date)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:819
+#: DescendantBooks/DetailedDescendantBookReport.py:863
+#, python-format
+msgid "%(place)s"
+msgstr "%(place)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:821
+#, python-format
+msgid ". Ref: %(repno)s %(gen)s %(per)s "
+msgstr ". Hiv.: %(repno)s %(gen)s %(per)s "
+
+#: DescendantBooks/DetailedDescendantBookReport.py:850
+#, python-format
+msgid "%(event_name)s:"
+msgstr "%(event_name)s:"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:875
+#, python-format
+msgid " %(event_text)s"
+msgstr " %(event_text)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:887
+#: DescendantBooks/DetailedDescendantBookReport.py:1140
+#, python-format
+msgid "%(type)s: %(value)s%(endnotes)s"
+msgstr "%(type)s: %(value)s%(endnotes)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:976
+#, python-format
+msgid "Spouse: %s"
+msgstr "Házastárs: %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:978
+#, python-format
+msgid "Relationship with: %s"
+msgstr "Kapcsolat vele: %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:993
+#, python-format
+msgid "Ref: %s. %s"
+msgstr "Hiv.: %s. %s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1006
+#: DescendantBooks/DetailedDescendantBookReport.py:1013
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1028
+#, python-format
+msgid "Children of %(mother_name)s and %(father_name)s"
+msgstr "%(mother_name)s és %(father_name)s gyermekei"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1086
+#, python-format
+msgid "Notes for %(mother_name)s and %(father_name)s:"
+msgstr "%(mother_name)s és %(father_name)s jegyzetei:"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1109
+#: DescendantBooks/DetailedDescendantBookReport.py:1132
+#, python-format
+msgid "More about %(mother_name)s and %(father_name)s:"
+msgstr "Bővebben %(mother_name)s és %(father_name)s:"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1214
+#, python-format
+msgid "Notes for %s"
+msgstr "%s jegyzetei"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1227
+#: DescendantBooks/DetailedDescendantBookReport.py:1246
+#: DescendantBooks/DetailedDescendantBookReport.py:1260
+#: DescendantBooks/DetailedDescendantBookReport.py:1284
+#, python-format
+msgid "More about %(person_name)s:"
+msgstr "Bővebben %(person_name)s:"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1234
+#, python-format
+msgid "%(name_kind)s: %(name)s%(endnotes)s"
+msgstr "%(name_kind)s: %(name)s%(endnotes)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1273
+msgid "Address: "
+msgstr "Lakcím: "
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1295
+#, python-format
+msgid "%(type)s:"
+msgstr "%(type)s:"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1300
+#, python-format
+msgid " %(value)s%(endnotes)s"
+msgstr " %(value)s%(endnotes)s"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1364
+msgid "Henry numbering"
+msgstr "Henry-számozás (116111.)"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1365
+msgid "d'Aboville numbering"
+msgstr "d'Aboville-számozás (1.1.1.3.2.1.3 iii.)"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1367
+msgid "Record (Modified Register) numbering"
+msgstr "Bejegyzésszámozás (Módosított regiszter)"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1377
+msgid "Page break between generations"
+msgstr "Generációk közötti oldaltörés"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1379
+msgid "Whether to start a new page after each generation."
+msgstr "Legyen-e minden generáció új oldalon."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1382
+msgid "Page break before end notes"
+msgstr "Végjegyzet előtt oldaltörés"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1384
+msgid "Whether to start a new page before the end notes."
+msgstr "Legyen-e oldaltörés a végjegyzet előtt."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1391
+msgid "Content"
+msgstr "Tartalom"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1393
+msgid "Use callname for common name"
+msgstr "Hívónév használata általánosként"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1394
+msgid "Whether to use the call name as the first name."
+msgstr "Legyen-e használva keresztnév helyett a hívónév."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1397
+msgid "Use full dates instead of only the year"
+msgstr "Csak év helyett a teljes dátum használata"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1399
+msgid "Whether to use full dates instead of just year."
+msgstr "Legyen-e használva csak év helyett a teljes dátum."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1402
+msgid "List children"
+msgstr "Gyermekfelsorolás"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1403
+msgid "Whether to list children."
+msgstr "Legyenek-e felsorolva a gyerekek."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1406
+msgid "Compute death age"
+msgstr "Halálozási kor számolása"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1407
+msgid "Whether to compute a person's age at death."
+msgstr "Legyen-e számolva a személy halálozási kora."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1410
+msgid "Omit duplicate ancestors"
+msgstr "Kettőzött ősök mellőzése"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1411
+msgid "Whether to omit duplicate ancestors."
+msgstr "Mellőzve legyenek-e a kettőzött ősök."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1414
+msgid "Use complete sentences"
+msgstr "Teljes mondatok használata"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1416
+msgid "Whether to use complete sentences or succinct language."
+msgstr "Teljes mondatok, vagy tőszavak legyenek-e használva."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1419
+msgid "Add descendant reference in child list"
+msgstr "Leszármazási hivatkozással a gyermek felsorolásban"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1422
+msgid "Whether to add descendant references in child list."
+msgstr "Legyen-e a gyermek felsorolásban leszármazási hivatkozás."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1425
+#: DescendantBooks/DetailedDescendantBookReport.py:1426
+msgid "Include"
+msgstr "Beleértve"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1428
+msgid "Include notes"
+msgstr "Jegyzetekkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1429
+msgid "Whether to include notes."
+msgstr "Legyenek-e benne jegyzetek is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1432
+msgid "Include attributes"
+msgstr "Jellemzőkkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1433
+msgid "Whether to include attributes."
+msgstr "Legyenek-e benne jellemzők is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1436
+msgid "Include Photo/Images from Gallery"
+msgstr "A galéria fotóival/képeivel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1437
+msgid "Whether to include images."
+msgstr "Legyenek-e benne képek is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1440
+msgid "Include alternative names"
+msgstr "Alternatív nevekkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1441
+msgid "Whether to include other names."
+msgstr "Legyenek-e benne más nevek is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1444
+msgid "Include events"
+msgstr "Eseményekkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1445
+msgid "Whether to include events."
+msgstr "Legyenek-e benne események is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1448
+msgid "Include addresses"
+msgstr "Lakcímekkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1449
+msgid "Whether to include addresses."
+msgstr "Legyenek-e benne lakcímek."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1452
+msgid "Include sources"
+msgstr "Forrásokkal"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1453
+msgid "Whether to include source references."
+msgstr "Legyenek-e benne források is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1456
+msgid "Include sources notes"
+msgstr "Forrásjegyzetekkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1457
+msgid ""
+"Whether to include source notes in the Endnotes section. Only works if "
+"Include sources is selected."
+msgstr ""
+"Legyenek-e forrásjegyzetek a végjegyzet részben. Csak a Forrásjegyzetek "
+"kiválasztása esetén működik."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1461
+msgid "Include (2)"
+msgstr "Beleértve (2)"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1463
+msgid "Include spouses"
+msgstr "Házastársakkal"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1464
+msgid "Whether to include detailed spouse information."
+msgstr "Legyenek-e benne részletes házastársi információk is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1467
+msgid "Include spouse reference"
+msgstr "Házastársi hivatkozással együtt"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1468
+msgid "Whether to include reference to spouse."
+msgstr "Legyenek-e benne házastársi hivatkozások is."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1471
+msgid "Include sign of succession ('+') in child-list"
+msgstr "Öröklési jellel ('+') a gyermek felsorolásban"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1473
+msgid ""
+"Whether to include a sign ('+') before the descendant number in the child-"
+"list to indicate a child has succession."
+msgstr ""
+"Legyen-e a gyermek felsorolásban leszármazásszám előtt ('+') jel, amely "
+"jelöli, hogy a gyermek örökös."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1478
+msgid "Include path to start-person"
+msgstr "A kiinduló személy útvonalával"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1479
+msgid ""
+"Whether to include the path of descendancy from the start-person to each "
+"descendant."
+msgstr ""
+"Legyen-e benne leszármazási útvonal a kiinduló személytől minden "
+"leszármazottig."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1483
+msgid "Include Index of Names"
+msgstr "Névjegyzékkel"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1484
+msgid "Whether to include the index of Names at the end of the report."
+msgstr "Szerepeljen-e névjegyzék a jelentés végén."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1488
+msgid "Include index of Dates"
+msgstr "Időrendi mutatóval"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1489
+msgid "Whether to include the index of Dates at the end of the report."
+msgstr "Szerepeljen-e időrendi mutató a jelentés végén."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1493
+msgid "Include index of Places"
+msgstr "Helynévmutatóval"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1494
+msgid "Whether to include the index of Places at the end of the report."
+msgstr "Szerepeljen-e betűrendes helynévmutató a jelentés végén."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1498
+msgid "Include the 'Report appearances' section with each person"
+msgstr "'Előfordulási összesítő' rész a többi személnél"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1500
+msgid ""
+"The 'Report appearances' section shows other places in the report where the "
+"person is mentioned."
+msgstr ""
+"Az 'Előfordulási összesítő' rész utal a személy egyéb előfordulásaira a "
+"jelentésben, ahol említésre került."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1507
+msgid "Missing information"
+msgstr "Hiányzó információ"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1509
+msgid "Replace missing places with ______"
+msgstr "Hiányzó helyek helyettesítése ezzel: ______"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1510
+msgid "Whether to replace missing Places with blanks."
+msgstr "Legyenek-e a hiányzó Helyek üres résszel helyettesítve."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1513
+msgid "Replace missing dates with ______"
+msgstr "Hiányzó dátumok helyettesítése ezzel: ______"
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1514
+msgid "Whether to replace missing Dates with blanks."
+msgstr "Legyenek-e a hiányzó dátumok üres résszel helyettesítve."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1547
+msgid "The style used for the generation header."
+msgstr "A generáció fejlécéhez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1557
+msgid "The style used for the children list title."
+msgstr "A gyermekfelsorolás címéhez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1567
+msgid "The style used for the children list."
+msgstr "A gyermekfelsorolás tartalmához használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1577
+msgid "The basic style used for Note header."
+msgstr "A megjegyzés fejléchez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1587
+msgid "The basic style used for the text display."
+msgstr "A megjelenített szöveg alap stílusa."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1594
+msgid "The style used for the first personal entry."
+msgstr "Az első személyes bejegyzéshez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1604
+msgid "The style used for the More About header and for headers of mates."
+msgstr "A bővebben: fejléchez és a társak fejléceihez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1615
+msgid "The style used for additional detail data."
+msgstr "A bővebben részleteihez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1625
+#: DescendantBooks/DetailedDescendantBookReport.py:1635
+msgid "The style used for note detail data."
+msgstr "A jegyzet adatrészleténél használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1645
+msgid "The style used for the date in the Index of Dates."
+msgstr "A dátum stílusa az időrendi mutatóban."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1655
+msgid "The style used for the events in the Index of Dates."
+msgstr "Az események stílusa az időrendi mutatóban."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1665
+msgid "The style used for the header in the Index of Names."
+msgstr "A névjegyzék fejlécéhez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1675
+msgid "The style used for the references in the Index of Names."
+msgstr "A névjegyzék hivatkozásainál használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1685
+msgid "The style used for the header in the Index of Places."
+msgstr "A helynévmutató fejlécéhez használt stílus."
+
+#: DescendantBooks/DetailedDescendantBookReport.py:1696
+msgid "The style used for the references in the Index of Places."
+msgstr "A helynévmutató utalásainál használt stílus."
+
+#: DescendantBooks/RunReport.py:84 DescendantBooks/RunReport.py:89
+msgid "Report could not be created"
+msgstr "Az összesítő nem hozható létre"
