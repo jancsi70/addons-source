@@ -1,0 +1,576 @@
+# Hungarian translations for gramps-addons / GraphView package.
+# Copyright (C) 2020 THE addons-source-maintenance-gramps'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addons-source-maintenance-gramps package.
+# Jancsi70 <gyj@centrum.sk>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gramps51\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-08 10:45-0500\n"
+"PO-Revision-Date: 2020-06-17 22:52+0200\n"
+"Last-Translator: Jancsi70 <gyj@centrum.sk>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: GraphView/graphview.gpr.py:32 GraphView/graphview.py:161
+msgid "Graph View"
+msgstr "Grafikon Nézet"
+
+#: GraphView/graphview.gpr.py:33
+msgid "Charts"
+msgstr "Diagramok"
+
+#: GraphView/graphview.gpr.py:34
+msgid "Dynamic and interactive graph of relations"
+msgstr "Dinamikus és interaktív kapcsolat grafikon"
+
+#: GraphView/graphview.gpr.py:47
+msgid ""
+"Graphview Warning:  Goocanvas 2 (https://wiki.gnome.org/action/show/Projects/"
+"GooCanvas) is required for this view to work"
+msgstr ""
+"GraphView Figyelmeztetés:  Goocanvas 2  (https://wiki.gnome.org/action/show/"
+"Projects/GooCanvas) szükséges a nézet működéséhez"
+
+#: GraphView/graphview.gpr.py:52
+msgid ""
+"Graphview Warning:  GraphViz (http://www.graphviz.org) is required for this "
+"view to work"
+msgstr ""
+"Graphview Warning:  GraphViz (http://www.graphviz.org) szükséges a nézet "
+"működéséhez"
+
+#: GraphView/graphview.gpr.py:61
+msgid "Graphview Failed to Load"
+msgstr "Graphview betöltése sikertelen"
+
+#: GraphView/graphview.gpr.py:62
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Graphview is missing python modules or programs.\n"
+"%smust be installed.\n"
+"\n"
+"For now, it may be possible to install the files manually. See\n"
+"<a href=\"https://gramps-project.org/wiki/index.php?title=Graph_View\" title="
+"\"https://gramps-project.org/wiki/index.php?title=Graph_View\">https://"
+"gramps-project.org/wiki/index.php?title=Graph_View</a> \n"
+"\n"
+"To dismiss all future Graphview warnings click Dismiss."
+msgstr ""
+"\n"
+"\n"
+"A Graphview-ből hiányzó a python modulok vagy programok.\n"
+"%s telepítve kell lennie.\n"
+"\n"
+"Jelenleg a fájlok kézi telepítésére van lehetőség. Lásd:\n"
+"<a href=\"https://gramps-project.org/wiki/index.php?title=Graph_View\" title="
+"\"https://gramps-project.org/wiki/index.php?title=Graph_View\">https://"
+"gramps-project.org/wiki/index.php?title=Graph_View</a> \n"
+"\n"
+"A jövőbeli GraphView figyelmeztetés elutasításához kattintson az Elvetés "
+"gombra."
+
+#: GraphView/graphview.gpr.py:78
+msgid " Dismiss "
+msgstr " Elvetés "
+
+#: GraphView/graphview.gpr.py:79
+msgid "Continue"
+msgstr "Folytatás"
+
+#: GraphView/graphview.py:608 GraphView/graphview.py:3379
+msgid "Show images"
+msgstr "Képek mutatása"
+
+#: GraphView/graphview.py:611
+msgid "Show avatars"
+msgstr "Arvatárok mutatása"
+
+#: GraphView/graphview.py:614 GraphView/graphview.py:3387
+msgid "Highlight the home person"
+msgstr "Központi személy kijelölése"
+
+#: GraphView/graphview.py:618 GraphView/graphview.py:3395
+msgid "Show full dates"
+msgstr "Teljes dátumok mutatása"
+
+#: GraphView/graphview.py:622 GraphView/graphview.py:3403
+msgid "Show places"
+msgstr "Helyek mutatása"
+
+#: GraphView/graphview.py:625 GraphView/graphview.py:2681
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: GraphView/graphview.py:631
+msgid "Place format"
+msgstr "Hely formátuma"
+
+#: GraphView/graphview.py:636 GraphView/graphview.py:3411
+msgid "Show tags"
+msgstr "Címkék mutatása"
+
+#: GraphView/graphview.py:638
+msgid "Layout"
+msgstr "Réteg"
+
+#: GraphView/graphview.py:656
+msgid "Person theme"
+msgstr "Személy témája"
+
+#: GraphView/graphview.py:661
+msgid "Path color to home person"
+msgstr "Útvonal szín a központi személyhez"
+
+#: GraphView/graphview.py:665
+msgid "Font:"
+msgstr "Betűtípus:"
+
+#: GraphView/graphview.py:675
+msgid "Themes"
+msgstr "Témák"
+
+#: GraphView/graphview.py:688 GraphView/graphview.py:3421
+msgid "Show animation"
+msgstr "Animáció mutatása"
+
+#: GraphView/graphview.py:692
+msgid "Animation speed (1..5 and 5 is the slower)"
+msgstr "Animáció sebesség (1..5, 5 a lassabb)"
+
+#: GraphView/graphview.py:696
+msgid "Animation count (0..8 use 0 to turn off)"
+msgstr "Animációszám (0..8 a kikapcsoláshoz használja a 0-t)"
+
+#: GraphView/graphview.py:705
+msgid "Animation"
+msgstr "Animáció"
+
+#: GraphView/graphview.py:719
+msgid "Search in all database"
+msgstr "Keresés az összes adatbázisban"
+
+#: GraphView/graphview.py:721
+msgid "Also apply search by all database."
+msgstr "Keresés az összes adatbázisban."
+
+#: GraphView/graphview.py:724
+msgid "Show person images"
+msgstr "A személy képeinek mutatása"
+
+#: GraphView/graphview.py:727
+msgid "Show persons thumbnails in search result list."
+msgstr ""
+"A személyek miniatűr képeinek megjelenítése a keresési eredménylistában."
+
+#: GraphView/graphview.py:730
+msgid "Show bookmarked first"
+msgstr "Könyvjelzőzöttek első helyen"
+
+#: GraphView/graphview.py:733
+msgid "Show bookmarked persons first in search result list."
+msgstr ""
+"A könyvjelzővel ellátott személyeket jelenítse meg elsőként a keresési "
+"eredménylistában."
+
+#: GraphView/graphview.py:735
+msgid "Search"
+msgstr "Keresés"
+
+#: GraphView/graphview.py:766
+msgid "Select a dot file name"
+msgstr "Válasszon egy pontfájl nevet"
+
+#: GraphView/graphview.py:769
+msgid "_Cancel"
+msgstr "Még_se"
+
+#: GraphView/graphview.py:770
+msgid "_Apply"
+msgstr "_Alkalmaz"
+
+#: GraphView/graphview.py:783
+msgid "File already exists"
+msgstr "A fájl már létezik"
+
+#: GraphView/graphview.py:784
+msgid ""
+"You can choose to either overwrite the file, or change the selected filename."
+msgstr ""
+"Választhatja a fájl felülírását, vagy megváltoztatja a kiválasztott "
+"fájlnevet."
+
+#: GraphView/graphview.py:786
+msgid "_Overwrite"
+msgstr "_Felülírás"
+
+#: GraphView/graphview.py:787
+msgid "_Change filename"
+msgstr "Fájlnév _változtatása"
+
+#: GraphView/graphview.py:802
+#, python-format
+msgid "Could not create %s"
+msgstr "Nem létrehozható %s"
+
+#: GraphView/graphview.py:861
+msgid "Zoom in"
+msgstr "Nagyítás"
+
+#: GraphView/graphview.py:868
+msgid "Zoom out"
+msgstr "Kicsinyítés"
+
+#: GraphView/graphview.py:875
+msgid "Zoom to original"
+msgstr "Eredeti méret"
+
+#: GraphView/graphview.py:882
+msgid "Zoom to best fit"
+msgstr "Nagyítsd a legmegfelelőbben"
+
+#: GraphView/graphview.py:889
+msgid "Go to active person"
+msgstr "Ugrás aktív eszemélyhez"
+
+#: GraphView/graphview.py:894
+msgid "Go to bookmark"
+msgstr "Ugrás a könyvjelzőhöz"
+
+#: GraphView/graphview.py:896
+msgid "Center view on selected bookmark"
+msgstr "Középnézet a kiválasztott könyvjelzőre"
+
+#: GraphView/graphview.py:898
+msgid "Bookmarks for current graph"
+msgstr "Az aktuális grafikon könyvjelzői"
+
+#: GraphView/graphview.py:899
+msgid "Other Bookmarks"
+msgstr "Egyéb könyvjelzők"
+
+#: GraphView/graphview.py:930
+msgid "Ancestor generations"
+msgstr "Ős generációk"
+
+#: GraphView/graphview.py:934
+msgid "Descendant generations"
+msgstr "Leszármazott generációk"
+
+#: GraphView/graphview.py:938
+msgid "Generations"
+msgstr "Generációk"
+
+#: GraphView/graphview.py:945
+msgid "Vertical spacing between generations"
+msgstr "Generációk közötti függőleges távolság"
+
+#: GraphView/graphview.py:950
+msgid "Horizontal spacing between generations"
+msgstr "Generációk közötti vízszintes távolság"
+
+#: GraphView/graphview.py:954
+msgid "Spacings"
+msgstr "Elosztás"
+
+#: GraphView/graphview.py:1086
+msgid "Add active person"
+msgstr "Aktív Személy hozzáadása"
+
+#: GraphView/graphview.py:1090 GraphView/graphview.py:3468
+#: GraphView/graphview.py:3653
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: GraphView/graphview.py:1091
+msgid "Call the bookmark editor"
+msgstr "A könyvjelző-szerkesztő hívása"
+
+#: GraphView/graphview.py:1152
+msgid ""
+"You don't have any bookmarks yet...\n"
+"Try to add some frequently used persons to speedup navigation."
+msgstr ""
+"Még nincs könyvjelzője ....\n"
+"Adjon hozzá néhány gyakran használt személyt a navigáció felgyorsításához."
+
+#: GraphView/graphview.py:1160
+msgid "No bookmarks for this graph..."
+msgstr "Nincs könyvjelző ehhez a grafikonhoz ..."
+
+#: GraphView/graphview.py:1165
+msgid "No other bookmarks..."
+msgstr "Nincs egyéb könyvjelző ..."
+
+#: GraphView/graphview.py:1170 GraphView/graphview.py:1172
+#: GraphView/search_widget.py:181 GraphView/search_widget.py:195
+#: GraphView/search_widget.py:230 GraphView/search_widget.py:239
+#: GraphView/search_widget.py:249
+#, python-format
+msgid "found: %s"
+msgstr "találat: %s"
+
+#: GraphView/graphview.py:1182
+#, python-format
+msgid ""
+"Add active person to bookmarks\n"
+"%s"
+msgstr ""
+"Aktív személy hozzáadása a könyvjelzőkhöz\n"
+"%s"
+
+#: GraphView/graphview.py:1269
+#, python-format
+msgid ""
+"Person <b><i>%s</i></b> is not in the current view.\n"
+"Do you want to set it active and rebuild view?"
+msgstr ""
+"<b><i>%s</i></b> nincs a jelenlegi nézetben.\n"
+"Szeretné aktívvá tenni és újraépíteni a nézetet?"
+
+#: GraphView/graphview.py:1272
+msgid "Change active person?"
+msgstr "Aktív személyt váltása?"
+
+#: GraphView/graphview.py:1273 GraphView/graphview.py:4085
+#: GraphView/graphview.py:4114
+msgid "Yes"
+msgstr "Igen"
+
+#: GraphView/graphview.py:1273 GraphView/graphview.py:4085
+#: GraphView/graphview.py:4114
+msgid "No"
+msgstr "Nem"
+
+#: GraphView/graphview.py:2312 GraphView/graphview.py:2345
+msgid "Relationship loop detected"
+msgstr "Körkapcsolatot észleltem"
+
+#: GraphView/graphview.py:2692
+msgid "Image on right side"
+msgstr "Kép jobboldalt"
+
+#: GraphView/graphview.py:2713
+msgid "Image on left side"
+msgstr "Kép baloldalt"
+
+#: GraphView/graphview.py:2734
+msgid "Normal"
+msgstr "Átlagos"
+
+#: GraphView/graphview.py:2814 GraphView/graphview.py:2827
+#: GraphView/graphview.py:2847 GraphView/graphview.py:2849
+#, python-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: GraphView/graphview.py:2821 GraphView/graphview.py:2822
+#: GraphView/graphview.py:2834 GraphView/graphview.py:2835
+#, python-format
+msgid "%s "
+msgstr "%s "
+
+#: GraphView/graphview.py:3050
+msgid "<b>Tags:</b>"
+msgstr "<b>Címkék</b>"
+
+#: GraphView/graphview.py:3430
+msgid "Lines type"
+msgstr "Vonal típus"
+
+#: GraphView/graphview.py:3434
+msgid "Direct"
+msgstr "Egyenes"
+
+#: GraphView/graphview.py:3442
+msgid "Curves"
+msgstr "Hajlított"
+
+#: GraphView/graphview.py:3450
+msgid "Ortho"
+msgstr "Merő"
+
+#: GraphView/graphview.py:3471
+msgid "Copy"
+msgstr "Másolás"
+
+#: GraphView/graphview.py:3474 GraphView/graphview.py:3656
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: GraphView/graphview.py:3480 GraphView/graphview.py:3662
+msgid "Tags"
+msgstr "Címkék"
+
+#: GraphView/graphview.py:3482
+msgid "Select tags for person"
+msgstr "Személycímke választás"
+
+#: GraphView/graphview.py:3485 GraphView/graphview.py:3667
+msgid "Organize Tags..."
+msgstr "Címkék szervezése..."
+
+#: GraphView/graphview.py:3489 GraphView/graphview.py:3671
+msgid "Spouses"
+msgstr "Házastársak"
+
+#: GraphView/graphview.py:3491
+msgid "Add new family"
+msgstr "Új család hozzáadása"
+
+#: GraphView/graphview.py:3512
+msgid "Siblings"
+msgstr "Testvérek"
+
+#: GraphView/graphview.py:3578
+msgid "Parents"
+msgstr "Szülők"
+
+#: GraphView/graphview.py:3609
+msgid "Add parents"
+msgstr "Szülők hozzáadása"
+
+#: GraphView/graphview.py:3613
+msgid "Related"
+msgstr "Kapcsolúdó"
+
+#: GraphView/graphview.py:3632
+msgid "Set as home person"
+msgstr "A kiinduló személy kiválastása"
+
+#: GraphView/graphview.py:3638 GraphView/search_widget.py:332
+#: GraphView/search_widget.py:408
+msgid "Remove from bookmarks"
+msgstr "Eltávolítás a könyvjelzőkből"
+
+#: GraphView/graphview.py:3641 GraphView/search_widget.py:340
+#: GraphView/search_widget.py:421
+msgid "Add to bookmarks"
+msgstr "Hozzáadás a könyvjelzőkhöz"
+
+#: GraphView/graphview.py:3664
+msgid "Select tags for family"
+msgstr "Családcímke választás"
+
+#: GraphView/graphview.py:3681
+msgid "Add father"
+msgstr "Apa hozzáadása"
+
+#: GraphView/graphview.py:3690
+msgid "Add mother"
+msgstr "Anya hozzáadása"
+
+#: GraphView/graphview.py:3702
+msgid "Children"
+msgstr "Gyermekek"
+
+#: GraphView/graphview.py:3711
+msgid "Add child to family"
+msgstr "Gyermek családhoz adása"
+
+#: GraphView/graphview.py:3782
+msgid "About Graph View"
+msgstr "A GraphView-ról"
+
+#: GraphView/graphview.py:3972
+msgid "Adding Tags"
+msgstr "Címkék hozzáadása"
+
+#: GraphView/graphview.py:3978
+#, python-format
+msgid "Adding Tags to person (%s)"
+msgstr "Címkék hozzáadása (%s) személyhez"
+
+#: GraphView/graphview.py:3983
+#, python-format
+msgid "Adding Tags to family (%s)"
+msgstr "Címkék hozzáadása (%s) családhoz"
+
+#: GraphView/graphview.py:4066
+msgid "Add Child to Family"
+msgstr "Gyermek hozzáadása a családhoz"
+
+#: GraphView/graphview.py:4081
+#, python-format
+msgid "Delete %s?"
+msgstr "%s törlése?"
+
+#: GraphView/graphview.py:4082
+#, python-format
+msgid "Deleting the person [%s] will remove it from the database."
+msgstr "[% s] törlése, személy eltávolítása az adatbázisból."
+
+#: GraphView/graphview.py:4094
+#, python-format
+msgid "Delete Person (%s)"
+msgstr "Személytörlés (%s)"
+
+#: GraphView/graphview.py:4111
+#, python-format
+msgid "Delete family [%s]?"
+msgstr "%s család törlése?"
+
+#: GraphView/graphview.py:4112
+msgid "Deleting the family will remove it from the database."
+msgstr "Család törlése, eltávolítása az adatbázisból."
+
+#: GraphView/graphview.py:4123
+#, python-format
+msgid "Delete Family [%s]"
+msgstr "[%s] család törlése"
+
+#: GraphView/graphview.py:4142
+#, python-format
+msgid "%s has been bookmarked"
+msgstr "%s könyvjelzőzve lett"
+
+#: GraphView/search_widget.py:73
+msgid "Persons from current graph"
+msgstr "Személyek az aktuális grafikonból"
+
+#: GraphView/search_widget.py:74
+msgid "Other persons from database"
+msgstr "Egyéb személyek az adatbázisból"
+
+#: GraphView/search_widget.py:193 GraphView/search_widget.py:246
+msgid "No persons found..."
+msgstr "Nincs talált személy ..."
+
+#: GraphView/search_widget.py:442
+msgid ""
+"Search people in the current visible graph and database.\n"
+"Use <Ctrl+F> to make search entry active."
+msgstr ""
+"Személy keresése az aktuálisan látható grafikonon és az adatbázisban.\n"
+"<Ctrl+F> aktiválja a keresési bejegyzést."
+
+#: GraphView/search_widget.py:444
+msgid "Search..."
+msgstr "Keresés..."
+
+#: GraphView/search_widget.py:620
+#, python-format
+msgid "<b>%s:</b>"
+msgstr "<b>%s:</b>"
+
+#: GraphView/search_widget.py:706
+#, python-format
+msgid "Birth: %s"
+msgstr "Született: %s"
+
+#: GraphView/search_widget.py:710
+#, python-format
+msgid "Death: %s"
+msgstr "Elhunyt: %s"
+
+#: GraphView/search_widget.py:716
+msgid "Parents:"
+msgstr "Szülők:"
