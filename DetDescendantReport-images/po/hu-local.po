@@ -1,0 +1,467 @@
+# Hungarian translations for gramps-addons / DetDescendantReport-images package.
+# Copyright (C) 2020 THE GRAMPS'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the addons-source-maintenance-gramps package.
+# Jancsi70 <gyj@centrum.sk>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gramps51\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-22 09:28-0600\n"
+"PO-Revision-Date: 2020-06-18 10:46+0200\n"
+"Last-Translator: Jancsi70 <gyj@centrum.sk>\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: DetDescendantReport-images/detdescendantreport.gpr.py:3
+msgid "Detailed Descendant Report With All Images"
+msgstr "Részletes Leszármazási Képes Összegsítő"
+
+#: DetDescendantReport-images/detdescendantreport.gpr.py:4
+msgid ""
+"Produces a detailed descendant report with all images and optional todo list."
+msgstr ""
+"Részletes leszármazási összesítőt készít minden képpel és a választható "
+"teendők listájával."
+
+#: DetDescendantReport-images/detdescendantreporti.py:175
+#, python-format
+msgid "Person %s is not in the Database"
+msgstr "%s személy nem található az adatbázisban"
+
+#: DetDescendantReport-images/detdescendantreporti.py:293
+#: DetDescendantReport-images/detdescendantreporti.py:387
+#: DetDescendantReport-images/detdescendantreporti.py:565
+#: DetDescendantReport-images/detdescendantreporti.py:599
+#: DetDescendantReport-images/detdescendantreporti.py:601
+#: DetDescendantReport-images/detdescendantreporti.py:608
+#: DetDescendantReport-images/detdescendantreporti.py:610
+#: DetDescendantReport-images/detdescendantreporti.py:636
+#: DetDescendantReport-images/detdescendantreporti.py:750
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: DetDescendantReport-images/detdescendantreporti.py:298
+#, python-format
+msgid "Descendant Report for %(person_name)s"
+msgstr "%(person_name)s leszármazási összesítője"
+
+#: DetDescendantReport-images/detdescendantreporti.py:311
+#, python-format
+msgid "Generation %d"
+msgstr "%d. generáció"
+
+#: DetDescendantReport-images/detdescendantreporti.py:367
+#: DetDescendantReport-images/detdescendantreporti.py:480
+msgid "; "
+msgstr "; "
+
+#: DetDescendantReport-images/detdescendantreporti.py:408
+#, python-format
+msgid "%(name)s is the same person as [%(id_str)s]."
+msgstr "%(name)s ugyanaz a személy, mint [%(id_str)s]."
+
+#: DetDescendantReport-images/detdescendantreporti.py:450
+#, python-format
+msgid "%(date)s, %(place)s"
+msgstr "%(date)s, %(place)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:453
+#, python-format
+msgid "%(date)s"
+msgstr "%(date)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:455
+#, python-format
+msgid "%(place)s"
+msgstr "%(place)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:467
+#, python-format
+msgid "%(event_name)s: %(event_text)s"
+msgstr "%(event_name)s: %(event_text)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:482
+#: DetDescendantReport-images/detdescendantreporti.py:733
+#: DetDescendantReport-images/detdescendantreporti.py:862
+#, python-format
+msgid "%(type)s: %(value)s%(endnotes)s"
+msgstr "%(type)s: %(value)s%(endnotes)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:568
+#, python-format
+msgid "Spouse: %s"
+msgstr "Házastárs: %s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:570
+#, python-format
+msgid "Relationship with: %s"
+msgstr "Kapcsolat vele: %s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:585
+#, python-format
+msgid "Ref: %(number)s. %(name)s"
+msgstr "Hiv.: %(number)s. %(name)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:625
+#, python-format
+msgid "Children of %(mother_name)s and %(father_name)s"
+msgstr "%(mother_name)s és %(father_name)s gyermekei"
+
+#: DetDescendantReport-images/detdescendantreporti.py:686
+#, python-format
+msgid "Notes for %(mother_name)s and %(father_name)s:"
+msgstr "%(mother_name)s és %(father_name)s jegyzetei:"
+
+#: DetDescendantReport-images/detdescendantreporti.py:706
+#: DetDescendantReport-images/detdescendantreporti.py:725
+#, python-format
+msgid "More about %(mother_name)s and %(father_name)s:"
+msgstr "Még több %(mother_name)s és %(father_name)s:"
+
+#: DetDescendantReport-images/detdescendantreporti.py:790
+#, python-format
+msgid "Notes for %s"
+msgstr "%s jegyzetei"
+
+#: DetDescendantReport-images/detdescendantreporti.py:799
+#: DetDescendantReport-images/detdescendantreporti.py:818
+#: DetDescendantReport-images/detdescendantreporti.py:829
+#: DetDescendantReport-images/detdescendantreporti.py:854
+#, python-format
+msgid "More about %(person_name)s:"
+msgstr "Bővebben %(person_name)s:"
+
+#: DetDescendantReport-images/detdescendantreporti.py:807
+#, python-format
+msgid "%(name_kind)s: %(name)s%(endnotes)s"
+msgstr "%(name_kind)s: %(name)s%(endnotes)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:842
+msgid "Address: "
+msgstr "Lakcím: "
+
+#: DetDescendantReport-images/detdescendantreporti.py:845
+#, python-format
+msgid "%s, "
+msgstr "%s, "
+
+#: DetDescendantReport-images/detdescendantreporti.py:929
+#, python-format
+msgid "%(str1)s, %(str2)s"
+msgstr "%(str1)s, %(str2)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:936
+#, python-format
+msgid "%(type)s: %(value)s"
+msgstr "%(type)s: %(value)s"
+
+#: DetDescendantReport-images/detdescendantreporti.py:965
+msgid "Images"
+msgstr "Képek"
+
+#: DetDescendantReport-images/detdescendantreporti.py:976
+msgid "Non existing media found in the Gallery"
+msgstr "A galériában nem található létező média"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1092
+msgid "Report Options"
+msgstr "Összesítő lehetőségek"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1095
+msgid "Center Person"
+msgstr "Központi személy"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1096
+msgid "The center person for the report"
+msgstr "Az összesítő központi személye"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1103
+msgid "Numbering system"
+msgstr "Számozási rendszer"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1105
+msgid "Henry numbering"
+msgstr "Henry-számozás (116111.)"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1106
+msgid "d'Aboville numbering"
+msgstr "d'Aboville-számozás (1.1.1.3.2.1.3 iii.)"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1108
+msgid "Record (Modified Register) numbering"
+msgstr "Bejegyzésszámozás (Módosított regiszter)"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1109
+msgid "The numbering system to be used"
+msgstr "A használandó számozási rendszer"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1112
+msgid "Generations"
+msgstr "Generációk"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1114
+msgid "The number of generations to include in the report"
+msgstr "Az összesítőben szereplő generációk száma"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1118
+msgid "Page break between generations"
+msgstr "Generációk közötti oldaltörés"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1120
+msgid "Whether to start a new page after each generation."
+msgstr "Kezdődjön-e minden generáció új oldalon."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1123
+msgid "Page break before end notes"
+msgstr "Végjegyzet előtt oldaltörés"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1125
+msgid "Whether to start a new page before the end notes."
+msgstr "Legyen-e oldaltörés a végjegyzet előtt."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1132
+msgid "Content"
+msgstr "Tartalom"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1134
+msgid "Use callname for common name"
+msgstr "Hívónév használata a köznév helyett"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1135
+msgid "Whether to use the call name as the first name."
+msgstr "Legyen-e használva keresztnév helyett a hívónév."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1138
+msgid "Use full dates instead of only the year"
+msgstr "Teljes dátum használat csak az év helyett"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1140
+msgid "Whether to use full dates instead of just year."
+msgstr "Legyen-e használva csak év helyett a teljes dátum."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1143
+msgid "List children"
+msgstr "Gyermekfelsorolás"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1144
+msgid "Whether to list children."
+msgstr "Legyenek-e felsorolva a gyerekek."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1147
+msgid "Compute death age"
+msgstr "Megélt kor számolása"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1148
+msgid "Whether to compute a person's age at death."
+msgstr "Legyen-e számolva a személy halálozási kora."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1151
+msgid "Omit duplicate ancestors"
+msgstr "Kettőzött ősök mellőzése"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1152
+msgid "Whether to omit duplicate ancestors."
+msgstr "Mellőzve legyenek-e a kettőzött ősök."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1155
+msgid "Use complete sentences"
+msgstr "Teljes mondatok használata"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1157
+msgid "Whether to use complete sentences or succinct language."
+msgstr "Teljes mondatok, vagy tőszavak legyenek-e használva."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1160
+msgid "Add descendant reference in child list"
+msgstr "Leszármazási hivatkozással a gyermek felsorolásban"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1163
+msgid "Whether to add descendant references in child list."
+msgstr "Legyen-e a gyermek felsorolásban leszármazási hivatkozás."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1166
+#: DetDescendantReport-images/detdescendantreporti.py:1167
+msgid "Include"
+msgstr "Beleértve"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1169
+msgid "Include notes"
+msgstr "Jegyzetekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1170
+msgid "Whether to include notes."
+msgstr "Legyenek-e benne jegyzetek."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1173
+msgid "Include TODO notes"
+msgstr "Tennivaló jegyzetekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1174
+msgid "Whether to include TODO notes."
+msgstr "Legyenek-e benne a tennivaló jegyzetei."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1177
+msgid "Include attributes"
+msgstr "Jellemzőkkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1178
+msgid "Whether to include attributes."
+msgstr "Legyenek-e benne jellemzők is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1181
+msgid "Include Photo/Images from Gallery"
+msgstr "A galéria fotóival/képeivel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1182
+msgid "Whether to include images."
+msgstr "Legyenek-e benne képek is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1185
+msgid "Include alternative names"
+msgstr "Alternatív nevekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1186
+msgid "Whether to include other names."
+msgstr "Legyenek-e benne más nevek is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1189
+msgid "Include events"
+msgstr "Eseményekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1190
+msgid "Whether to include events."
+msgstr "Legyenek-e benne események is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1193
+msgid "Include addresses"
+msgstr "Lakcímekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1194
+msgid "Whether to include addresses."
+msgstr "Legyenek-e benne lakcímek."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1197
+msgid "Include sources"
+msgstr "Forrásokkal"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1198
+msgid "Whether to include source references."
+msgstr "Legyenek-e benne források is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1201
+msgid "Include sources notes"
+msgstr "Forrásjegyzetekkel"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1202
+msgid ""
+"Whether to include source notes in the Endnotes section. Only works if "
+"Include sources is selected."
+msgstr ""
+"Legyenek-e forrásjegyzetek a végjegyzet részben. Csak a Forrásjegyzetek "
+"kiválasztása esetén működik."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1206
+msgid "Include spouses"
+msgstr "Házastársakkal"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1207
+msgid "Whether to include detailed spouse information."
+msgstr "Legyenek-e benne részletes házastársi információk is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1210
+msgid "Include spouse reference"
+msgstr "Házastársi hivatkozással együtt"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1211
+msgid "Whether to include reference to spouse."
+msgstr "Legyenek-e benne házastársi hivatkozások is."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1214
+msgid "Include sign of succession ('+') in child-list"
+msgstr "Öröklési jellel ('+') a gyermek felsorolásban"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1216
+msgid ""
+"Whether to include a sign ('+') before the descendant number in the child-"
+"list to indicate a child has succession."
+msgstr ""
+"Legyen-e a gyermek felsorolásban leszármazásszám előtt ('+') jel, amely "
+"jelöli, hogy a gyermek örökös."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1221
+msgid "Include path to start-person"
+msgstr "A kiinduló személy útvonalával"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1222
+msgid ""
+"Whether to include the path of descendancy from the start-person to each "
+"descendant."
+msgstr ""
+"Legyen-e benne leszármazási útvonal a kiinduló személytől minden "
+"leszármazottig."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1228
+msgid "Missing information"
+msgstr "Hiányzó információ"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1230
+msgid "Replace missing places with ______"
+msgstr "Hiányzó helyek helyettesítése ezzel: ______"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1231
+msgid "Whether to replace missing Places with blanks."
+msgstr "Legyenek-e a hiányzó Helyek üres résszel helyettesítve."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1234
+msgid "Replace missing dates with ______"
+msgstr "Hiányzó dátumok helyettesítése ezzel: ______"
+
+#: DetDescendantReport-images/detdescendantreporti.py:1235
+msgid "Whether to replace missing Dates with blanks."
+msgstr "Legyenek-e a hiányzó dátumok üres résszel helyettesítve."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1248
+msgid "The style used for the title of the page."
+msgstr "Az oldalcímhez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1258
+msgid "The style used for the generation header."
+msgstr "A generáció fejlécéhez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1268
+msgid "The style used for the children list title."
+msgstr "A gyermekfelsorolás címéhez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1278
+msgid "The style used for the children list."
+msgstr "A gyermekfelsorolás tartalmához használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1294
+msgid "The basic style used for the text display."
+msgstr "A megjelenített szöveg alap stílusa."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1301
+msgid "The style used for the first personal entry."
+msgstr "Az első személyes bejegyzéshez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1311
+msgid "The style used for the More About header and for headers of mates."
+msgstr "A Bővebben: fejléchez és a társak fejléceihez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1322
+msgid "The style used for additional detail data."
+msgstr "A Bővebben részleteihez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1347
+msgid "The style used for image labels."
+msgstr "A képcímkékhez használt stílus."
+
+#: DetDescendantReport-images/detdescendantreporti.py:1360
+msgid "A style used for image captions."
+msgstr "A képaláírásokhoz használt stílus."
